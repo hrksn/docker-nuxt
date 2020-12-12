@@ -1,10 +1,10 @@
 # docker-nuxtjs
 
 [First]  
-rm src/.gitkeep
 docker-compose run --rm node sh  
 
-[Second]  
+[Second] 
+rm .gitkeep  
 yarn global add create-nuxt-app  
 create-nuxt-app ./  
 
