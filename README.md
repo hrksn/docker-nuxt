@@ -10,5 +10,5 @@ in container
 /var/www # exit
   
   
-docker-compose up nuxtwork
+docker-compose up workspace
 
