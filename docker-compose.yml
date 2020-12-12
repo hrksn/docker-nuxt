@@ -12,7 +12,7 @@ services:
       HOST: 0.0.0.0
     restart: always # エラーなどでコンテナが落ちた際に自動で再起動してくれる
 
-  nuxtwork:
+  workspace:
     <<: *app_base
     ports:
       - "3000:3000" # localhost:3000にポートをマッピングする
