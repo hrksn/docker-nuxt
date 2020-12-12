@@ -1,6 +1,7 @@
 # docker-nuxtjs
 
 [First]  
+rm src/.gitkeep
 docker-compose run --rm node sh  
 
 [Second]  
